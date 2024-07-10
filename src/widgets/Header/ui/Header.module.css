@@ -1,0 +1,39 @@
+.headerInner {
+  display: flex;
+  padding-top: 24px;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    align-items: flex-end;
+  }
+}
+
+.headerMenu {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  @media screen and (max-width: 560px) {
+    display: none;
+  }
+}
+
+.headerNavList{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.headerNavListItem {
+  cursor: pointer;
+}
+
+.headerNavListItem svg:hover { 
+  stroke: #9466FF; 
+  fill: #9466FF; 
+}
+
+.headerNavListItem:hover { 
+  stroke: #9466FF; 
+  fill: #9466FF; 
+}
