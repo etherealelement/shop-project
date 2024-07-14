@@ -1,0 +1,13 @@
+.menu {
+  margin-top: 50px;
+}
+.menuContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100%;
+} 
+
+.catalogList {
+  margin-top: 150px;
+}

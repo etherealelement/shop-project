@@ -1,11 +1,27 @@
+.header {
+  position: relative;
+  z-index: 3;
+  background-color: #1D2533;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20), 0px 0px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+
 .headerInner {
   display: flex;
-  padding-top: 24px;
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
   align-items: center;
   justify-content: space-between;
   @media screen and (max-width: 768px) {
     align-items: flex-end;
   }
+}
+
+.headerLogo {
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-65%);
 }
 
 .headerMenu {
@@ -16,6 +32,18 @@
   @media screen and (max-width: 560px) {
     display: none;
   }
+}
+
+.headerMenuBtn {
+  display: flex;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  gap: 12px;
+  color: #Ffff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: .2s ease-in-out color
 }
 
 .headerNavList{
